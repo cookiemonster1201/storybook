@@ -1,0 +1,34 @@
+.item {
+  list-style: none;
+}
+.link {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  font-family: Montserrat, sans-serif;
+  text-decoration: none;
+  color: #000;
+}
+
+.link.active {
+  color: tomato;
+}
+
+.link.active svg {
+  color: tomato;
+}
+
+.link svg {
+  margin-right: 10px;
+  color: #000;
+}
+
+.link:hover,
+.link:focus {
+  background-color: #ccc;
+  color: tomato;
+}
+
+.link:hover svg {
+  color: tomato;
+}

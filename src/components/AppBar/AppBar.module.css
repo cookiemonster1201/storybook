@@ -1,0 +1,19 @@
+.container {
+  width: 260px;
+  min-height: 100vh;
+}
+
+.container.minimized {
+  width: 30px;
+}
+
+.logoThumb {
+  padding: 60px;
+
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.content {
+  position: relative;
+}
